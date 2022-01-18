@@ -14,10 +14,12 @@ export class CreateOrdersGames1642518151469 implements MigrationInterface {
           {
             name: 'order_id',
             type: 'uuid',
+            isNullable: true,
           },
           {
             name: 'game_id',
             type: 'uuid',
+            isNullable: true,
           },
           {
             name: 'created_at',
